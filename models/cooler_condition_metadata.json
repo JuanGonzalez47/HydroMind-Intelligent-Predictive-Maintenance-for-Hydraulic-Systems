@@ -1,0 +1,12 @@
+{
+    "target_name": "cooler_condition",
+    "model_type": "DecisionTreeClassifier",
+    "features": [
+        "CE_mean"
+    ],
+    "classes": [
+        "total failure",
+        "reduced",
+        "optimal"
+    ]
+}

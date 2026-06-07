@@ -1,0 +1,36 @@
+{
+    "target_name": "stable_flag",
+    "model_type": "RandomForestClassifier",
+    "features": [
+        "FS1_mean",
+        "FS1_std",
+        "FS1_skew",
+        "FS1_kurtosis",
+        "FS1_slope",
+        "PS1_skew",
+        "PS2_std",
+        "PS2_skew",
+        "PS2_kurtosis",
+        "PS2_slope",
+        "PS5_mean",
+        "PS6_mean",
+        "SE_mean",
+        "SE_std",
+        "SE_skew",
+        "SE_kurtosis",
+        "SE_max",
+        "TS4_mean",
+        "TS4_max"
+    ],
+    "classes": [
+        "conditions were stable (0)",
+        "static conditions might not have been reached yet (1)"
+    ],
+    "best_params": {
+        "class_weight": "balanced_subsample",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 300
+    }
+}

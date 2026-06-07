@@ -1,0 +1,31 @@
+{
+    "cooler_condition": {
+        "model_file": "cooler_condition_model.pkl",
+        "features_file": "cooler_condition_features.pkl",
+        "metadata_file": "cooler_condition_metadata.json"
+    },
+    "hydraulic_accumulator": {
+        "model_file": "hydraulic_accumulator_model.pkl",
+        "features_file": "hydraulic_accumulator_features.pkl",
+        "label_encoder_file": "hydraulic_accumulator_label_encoder.pkl",
+        "metadata_file": "hydraulic_accumulator_metadata.json"
+    },
+    "internal_pump_leakage": {
+        "model_file": "internal_pump_leakage_model.pkl",
+        "features_file": "internal_pump_leakage_features.pkl",
+        "label_encoder_file": "internal_pump_leakage_label_encoder.pkl",
+        "metadata_file": "internal_pump_leakage_metadata.json"
+    },
+    "valve_condition": {
+        "model_file": "valve_condition_model.pkl",
+        "features_file": "valve_condition_features.pkl",
+        "label_encoder_file": "valve_condition_label_encoder.pkl",
+        "metadata_file": "valve_condition_metadata.json"
+    },
+    "stable_flag": {
+        "model_file": "stable_flag_model.pkl",
+        "features_file": "stable_flag_features.pkl",
+        "label_encoder_file": "stable_flag_label_encoder.pkl",
+        "metadata_file": "stable_flag_metadata.json"
+    }
+}

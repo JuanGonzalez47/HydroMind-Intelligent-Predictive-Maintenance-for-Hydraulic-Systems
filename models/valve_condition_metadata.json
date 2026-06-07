@@ -1,0 +1,31 @@
+{
+    "target_name": "valve_condition",
+    "model_type": "SVC",
+    "features": [
+        "EPS1_kurtosis",
+        "FS1_mean",
+        "FS1_skew",
+        "FS1_max",
+        "PS1_kurtosis",
+        "PS1_slope",
+        "PS2_std",
+        "PS2_skew",
+        "PS2_kurtosis",
+        "PS2_slope",
+        "SE_mean",
+        "SE_skew",
+        "SE_kurtosis",
+        "SE_slope"
+    ],
+    "classes": [
+        "optimal switching behavior (100)",
+        "small lag (90)",
+        "severe lag (80)",
+        "close to total failure (73)"
+    ],
+    "best_params": {
+        "C": 100,
+        "gamma": "scale",
+        "kernel": "rbf"
+    }
+}
