@@ -2,6 +2,8 @@
 
 HydroMind is an advanced Industrial IoT solution designed to monitor, diagnose, and predict failures in complex hydraulic systems. By leveraging machine learning models specialized by component, HydroMind transforms raw sensor data into actionable insights, minimizing downtime and optimizing operational efficiency.
 
+<img width="1811" height="623" alt="image" src="https://github.com/user-attachments/assets/35b4f285-b7f4-4c52-b992-73dcd13c840e" />
+
 ---
 
 ## 🏗️ Architecture: Medallion Pipeline
